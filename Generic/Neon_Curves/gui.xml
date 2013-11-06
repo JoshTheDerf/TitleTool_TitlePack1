@@ -1,0 +1,16 @@
+<GUI>
+	<name>Neon Curves</name>
+	<description>Waving Colored Streamers behind your custom text.</description>
+	<start-frame>1</start-frame>
+	<end-frame>250</end-frame>
+	<separator/>
+	<textarea param="titleText" value="Neon Curves" multiline="true">This is the Title Text:</textarea>
+	<color param="textColor" default="200,200,20">Text Color: </color>
+	<color param="lineColor" default="20,200,255">Base Line Color: </color>
+	<seperator/>
+	<label>Background Blur:</label>
+	<combo param="bgBlur" text="Background Blur" readonly="true">
+		<option selected="true">Less</option>
+		<option>More</option>
+	</combo>
+</GUI>

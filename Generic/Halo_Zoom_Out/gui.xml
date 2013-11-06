@@ -1,0 +1,14 @@
+<GUI>
+	<name>Halo Zoom Out</name>
+	<description>Text with a spinning halo, slowly moving away from the camera</description>
+	<start-frame>1</start-frame>
+	<end-frame>180</end-frame>
+	<separator />
+	<textarea param="titleText" value="Text!" multiline="true">This is the Title Text:</textarea>
+	<color param="textcolor" default="100,100,100">Text Color: </color>
+
+	<color param="halocolor" default="100,100,100">Halo Color: </color>
+	<color param="halocolor2" default="100,100,100">Halo Specular Color: </color>
+	<color param="worldcolor" default="100,100,100">Background Color: </color>
+
+</GUI>
